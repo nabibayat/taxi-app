@@ -4,6 +4,7 @@ import { collection, getDocs, query, orderBy } from "firebase/firestore";
 import { Button } from "react-bootstrap";
 import DriverCard from "./DriverCard";
 import { useNavigate } from "react-router-dom";
+import "./Fahrer.css";
 import { AutosContext } from "./AutosContext"; // Import AutosContext
 
 function Fahrer() {
