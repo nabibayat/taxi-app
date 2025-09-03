@@ -1,0 +1,25 @@
+.image-container {
+    text-align: left; /* Aligns content to the left */
+    width: 100%; /* Ensures the container takes full width of its parent */
+    
+}
+
+.image-container img {
+    display: block; /* Ensures the image is displayed as a block element */
+    
+    margin-bottom: 10px; /* Adds space between the image and the buttons */
+}
+
+.button-group {
+    display: flex;
+    justify-content: start; /* Aligns buttons to the start (left) of the container */
+    gap: 10px; /* Space between the buttons */
+}
+.autoPhoto {
+    width: 8 cm; /* Approx 35mm */
+    height: 5 cm; /* Approx 45mm */
+    object-fit: contain; /* Maintains aspect ratio without cropping the image */
+    border: 1px solid #ccc; /* Optional: adds a subtle border around the photo */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Optional: adds slight shadow for depth */
+    margin-top: 10px; /* Space from the name to the photo */
+}

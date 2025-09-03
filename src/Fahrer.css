@@ -1,0 +1,46 @@
+.image-container {
+    text-align: left; /* Aligns content to the left */
+    width: 100%; /* Ensures the container takes full width of its parent */
+    
+}
+
+.image-container img {
+    display: block; /* Ensures the image is displayed as a block element */
+    
+    margin-bottom: 10px; /* Adds space between the image and the buttons */
+}
+
+.button-group {
+    display: flex;
+    justify-content: start; /* Aligns buttons to the start (left) of the container */
+    gap: 10px; /* Space between the buttons */
+}
+.fahrerPhoto {
+    width: 3.5cm; /* Approx 35mm */
+    height: 4.5cm; /* Approx 45mm */
+    object-fit: contain; /* Maintains aspect ratio without cropping the image */
+    border: 1px solid #ccc; /* Optional: adds a subtle border around the photo */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Optional: adds slight shadow for depth */
+    margin-top: 10px; /* Space from the name to the photo */
+}
+.profile-container {
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Spaces children evenly */
+    margin-top: 20px;
+}
+
+fahrer-photo {
+    width: 150px; /* Set a fixed size for Fahrer's photo */
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.auto-photo {
+    width: 300px; /* Auto photo is double the size of Fahrer's photo */
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+

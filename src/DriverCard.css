@@ -1,0 +1,31 @@
+.driver-photo {
+    width: 100px;
+    margin-top: 0px;
+    border-radius: 50% / 60%;
+  }
+  
+  .assigned-auto-photo {
+    width: 150px;
+    margin-top: 10px;
+  }
+  
+  .driver-card-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .oval-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 50% / 60%; /* Creates the vertical oval shape */
+  }
+  
+  .oval-image {
+    width: 100%;
+    height: auto;
+  
+  }
+  
