@@ -72,3 +72,23 @@ h6 {
   color: var(--primary-color);
   margin-top: 0;
 }
+
+/* Generic responsive helpers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+}
