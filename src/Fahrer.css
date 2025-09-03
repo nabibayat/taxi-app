@@ -1,46 +1,53 @@
 .image-container {
-    text-align: left; /* Aligns content to the left */
-    width: 100%; /* Ensures the container takes full width of its parent */
-    
+  text-align: left;
+  width: 100%;
 }
 
 .image-container img {
-    display: block; /* Ensures the image is displayed as a block element */
-    
-    margin-bottom: 10px; /* Adds space between the image and the buttons */
+  display: block;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 
 .button-group {
-    display: flex;
-    justify-content: start; /* Aligns buttons to the start (left) of the container */
-    gap: 10px; /* Space between the buttons */
-}
-.fahrerPhoto {
-    width: 3.5cm; /* Approx 35mm */
-    height: 4.5cm; /* Approx 45mm */
-    object-fit: contain; /* Maintains aspect ratio without cropping the image */
-    border: 1px solid #ccc; /* Optional: adds a subtle border around the photo */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Optional: adds slight shadow for depth */
-    margin-top: 10px; /* Space from the name to the photo */
-}
-.profile-container {
-    display: flex;
-    align-items: center; /* Aligns items vertically in the center */
-    justify-content: space-between; /* Spaces children evenly */
-    margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
 }
 
-fahrer-photo {
-    width: 150px; /* Set a fixed size for Fahrer's photo */
-    height: auto;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.fahrerPhoto {
+  width: 3.5cm;
+  height: 4.5cm;
+  object-fit: contain;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-top: 0.5rem;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.fahrer-photo {
+  width: 150px;
+  height: auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 
 .auto-photo {
-    width: 300px; /* Auto photo is double the size of Fahrer's photo */
-    height: auto;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
+  height: auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
-

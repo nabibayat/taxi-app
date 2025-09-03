@@ -5,6 +5,7 @@ import { db, storage } from './firebase-config'; // Ensure correct paths
 import { Button, Table, Modal, Form } from 'react-bootstrap';
 import { useNavigate, useParams, useLocation } from 'react-router-dom';
 import documentTypes from './documentTypes';
+import "./DriverDocuments.css";
 import { FaDownload } from 'react-icons/fa'; // Import download icon
 
 const DriverDocuments = () => {

@@ -1,31 +1,36 @@
 .driver-photo {
-    width: 100px;
-    margin-top: 0px;
-    border-radius: 50% / 60%;
-  }
-  
-  .assigned-auto-photo {
-    width: 150px;
-    margin-top: 10px;
-  }
-  
-  .driver-card-buttons {
-    display: flex;
-    gap: 10px;
-  }
-  .oval-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
-    overflow: hidden;
-    border-radius: 50% / 60%; /* Creates the vertical oval shape */
-  }
-  
-  .oval-image {
-    width: 100%;
-    height: auto;
-  
-  }
-  
+  width: 100px;
+  margin-top: 0;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+}
+
+.assigned-auto-photo {
+  width: 150px;
+  margin-top: 0.5rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+}
+
+.driver-card-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.oval-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50% / 60%;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow);
+  background-color: var(--surface-color);
+}
+
+.oval-image {
+  width: 100%;
+  height: auto;
+}

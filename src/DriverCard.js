@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import OvalImage from './Components/OvalImage'; // Assuming OvalImage is correctly imported
+import "./DriverCard.css";
 
 const DriverCard = ({
   driver,
